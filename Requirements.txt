@@ -1,0 +1,3 @@
+# No external dependencies required.
+# This project only uses Python's built-in standard library
+# (input, print, and built-in data types like lists/dicts).
