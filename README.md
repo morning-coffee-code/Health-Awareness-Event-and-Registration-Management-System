@@ -137,3 +137,14 @@ your-repo-name/
 └── main.py
 
 ```
+
+```all module name-
+1. Register_student.py
+2. displayHealthAwareness.py
+3. display_stu.py
+4. registercampaign.py
+5. viewCAMPAIGN.py
+
+
+
+```
