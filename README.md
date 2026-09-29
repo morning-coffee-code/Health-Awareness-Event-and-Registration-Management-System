@@ -41,7 +41,7 @@ Run the program from the terminal with:
 python3 main.py
 `
 You will see a menu:
-`
+```
 ===============================
 Health care campaign
 ===============================
@@ -51,7 +51,7 @@ Health care campaign
 4. Register for a Campaign
 5. Display Registered Students
 6. Exit
-`
+```
 Type the action number you wish to do. Follow the directions on the screen. Select 6 to exit out of the program.
 ### Example Usage
 1. Select option 1' - Register as a student On asking for name, registration number, branch and type of student - hosteller or day scholar.
@@ -62,7 +62,7 @@ Notes
 - Everything is only in memory such as: the students' data. And it is all lost every time you run the program again. There are no database or files that saved the data.
 - Campaigns list is written in main.py as is. If you would like to add a campaign, simply add in main.py campaign list.
 Project Structure
-``
+```
 your-repo-name/
 README.md
 requirements.txt
@@ -76,4 +76,4 @@ Module Names
 3. Display_stu.py
 4. Registercampaign.py
 5. ViewCAMPAIGN.py
-``
+```
