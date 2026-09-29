@@ -1,151 +1,79 @@
 # Health-Awareness-Event-and-Registration-Management-System
-A command-line Python application to manage student registrations and sign-ups for campus health awareness campaigns.
+A command-line Python program to run registration and sign-up for campus health awareness campaigns.
 # Health Care Campaign Management System
-
-This is a command-line Python program that helps manage student registrations and health awareness campaign sign-ups on campus.
-
-## Features
-
-- Register a student with name, registration number, branch and hosteller or day scholar status
-
-- Show general health awareness information to students
-
-- List upcoming health campaigns with date, time and venue
-
-- Let an already registered student sign up for a specific campaign
-
-- Display all students who have registered so far
-
-## Requirements
-
+This is a command-line Python program that registers students to attend a health awareness campaign on campus.
+Features
+- Submit a Student registration with name, registration number, branch and hosteller/day scholar?
+- Present general health awareness information to students
+- Upcoming health promotion campaigns and activities (Date, time and venue)
+- Have a previously enrolled student register to a pre-selected campaign
+- Show all registered students to date
+Requirements
 - Python 3.7 or higher
-
-- No external packages are needed. The project only uses Python’s built-in tools
-
-## Environment Setup
-
-1. **Check that Python is installed:**
-
-```bash
-
+- No third-party packages are required. The code only depends on Python's standard library
+Environment Setup
+1. Check that Python is installed:
+``bash
 python3 --version
-
-```
-
-If Python is not installed go to https://www.python.org/downloads/ to download it.
-
-2. **Clone the repository:**
-
-```bash
-
+`
+If Python is not installed, go to https://www.python.org/downloads/ to install it.
+2. Clone the repository:
+`bash
 git clone https://github.com/{your-username}/{your-repo-name}
-
 cd {your-repo-name}
-
-```
-
-3. **(Optional but recommended) Create and activate an environment:**
-
-```bash
-
-python3 -m venv venv
-
-source venv/bin/activate      # On macOS/Linux
-
-venv\Scripts\activate         # On Windows
-
-```
-
-## Dependency Installation
-
-The project does not use any external packages. If `requirements.txt` is added later install dependencies using:
-
-```bash
-
+`
+3. (Optional but strongly recommended) Make environment and activate it:
+`bash
+python3 -m venv
+source venv/bin/activate # On macOS/Linux
+venv\Scripts\activate # On Windows
+`
+Dependency Installation
+This project does not depend on any external packages. If you add requirements.txt later, then install dependencies with:
+`bash
 pip install -r requirements.txt
-
-```
-
-## Configuration
-
-There are no configuration files API keys or environment variables required to run this program.
-
-## Running the Project
-
+`
+Configuration
+This program uses no configuration files or environment variables or API keys.
+Running the Project
 Run the program from the terminal with:
-
-```bash
-
+`bash
 python3 main.py
-
-```
-
+`
 You will see a menu:
-
-```
-
+`
 ===============================
-
 Health care campaign
-
 ===============================
-
 1. Student Registration
-
 2. Show Health Awareness Information
-
 3. View Campaigns
-
 4. Register for a Campaign
-
 5. Display Registered Students
-
 6. Exit
-
-```
-
-Enter the number of the action you want to do. Follow the instructions shown on the screen. Choose option `6` to quit the program.
-
+`
+Type the action number you wish to do. Follow the directions on the screen. Select 6 to exit out of the program.
 ### Example Usage
-
-1. Pick option `1` to register as a student. You'll be asked to enter your name, registration number, branch and whether you're a hosteller or a day scholar.
-
-2. Pick option `3` to see the list of health campaigns.
-
-3. Pick option `4` to sign up for one of the campaigns by entering your registration number.
-
-4. Pick option `5` anytime to see all students who are currently registered.
-
-## Notes
-
-- All data like student details are kept in memory only. Every time you restart the program the data is lost. There is no database or file to save the data.
-
-- The list of campaigns is written directly in `main.py`. If you need to add a campaign just edit the `campaign` list, in the code.
-
-## Project Structure
-
-```
-
+1. Select option 1' - Register as a student On asking for name, registration number, branch and type of student - hosteller or day scholar.
+2. Select option 3 and there will be health campaigns.
+3. Select 4 to register on one of the campaigns by inputting your registration number.
+4. To find out who is currently enrolled, always select 5.
+Notes
+- Everything is only in memory such as: the students' data. And it is all lost every time you run the program again. There are no database or files that saved the data.
+- Campaigns list is written in main.py as is. If you would like to add a campaign, simply add in main.py campaign list.
+Project Structure
+``
 your-repo-name/
-
-├── README.md
-
-├── requirements.txt
-
-├──.gitignore
-
-└── main.py
-
-```
-
-## Module Names
-```all module name-
+README.md
+requirements.txt
+.gitignore
+main.py
+`
+Module Names
+`all module name-
 1. Register_student.py
-2. displayHealthAwareness.py
-3. display_stu.py
-4. registercampaign.py
-5. viewCAMPAIGN.py
-
-
-
-```
+2. DisplayHealthAwareness.py
+3. Display_stu.py
+4. Registercampaign.py
+5. ViewCAMPAIGN.py
+``
