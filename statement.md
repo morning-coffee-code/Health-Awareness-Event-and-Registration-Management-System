@@ -1,59 +1,63 @@
-## Problem Statement
+Problem Statement
 
-Educational institutions often organize fitness-related awareness programs. These include health check-up camps, nutrition awareness drives, mental health events, blood donation camps and drug abuse prevention initiatives. However keeping track of student participation in these events is usually done manually using paper registers or scattered spreadsheets. This makes it hard to:
+Schools and colleges also have events, which are relevant to fitness and health. These can include: health checkup talks about food, mental health campaigns, blood donation camps and drug awareness activities. Tracking which students are attending these events is almost always done with paper records or spreadsheets, which can be slow and error-prone to:
 
-- Know which students are registered on campus and active
+- Discover Who Is Registered & Attending On-campus Students
 
-- Let students view all campaigns in one place
+- Allow students to view all events in the same window-
 
-- Allow students to sign up for specific campaigns using their unique registration number
+-Enable students to attend events by using their own registration number
 
-- Maintain an easily accessible list of who has signed up
+- Use a list that is visible and easy to find for those who have registered
 
-This project solves this issue by offering a simple command-line based system. Students can sign in view fitness campaigns and join the ones they want. Campaign organizers can see the list of registered students. All this works through a terminal tool with no external database or GUI setup.
+Here's how we solve the problem with this project: Provide an easy to use command line tool, Students logs in, sees fitness events, joins the ones they want, and organizers see who has signed up. All through a command line tool, no need for a database, a nice gui, or the online service that we don't have.
 
-## Scope of the Project
+Scope of the Project
 
-This project is a *console-based (CLI) application* written in Python that includes:
+This project is a command-line (CLI) application written in Python with:
 
-- Registering students with their name, registration number, department and hosteller/day-student status
+- Enroll students with student name, registration number, and department. And whether they stay in hostel or traveling to college.
 
-- Sharing current health awareness suggestions and tips with students
+- Providing students with advice about health & fitness as which ways to stay healthy, balanced and fit like consuming, working out, resting and keeping yourself fit.
 
-- Displaying all upcoming fitness campaigns with their name, date, time and venue
+- List of all the coming fitness events with their name, date, time, and location.
 
-- Letting an already-registered student join a specific campaign using their registration number
+- Allowing a registered student to participate in a chosen event using their registration number
 
-- Displaying the complete list of currently registered students
+- Display all students registered for.
 
-**Not included** in this version:
+Not included in this version:
 
-- Data storage. All data is stored in memory during the session only. Is lost when the system ends (no database or file storage)
+- Saving data. During the session all data is stored in computers memory. It is lost when the system terminates (no database or file saving)
 
-- User authentication or login system
+Login or authenticate login.
 
-- A graphical user interface (GUI) or web-based interface
+- either a graphical user interface or a web-version,
 
-- The ability to change or remove a student’s registration once submitted
+- To be able to modify or delete a students registration once it has been entered
 
-- Alerts or reminders for upcoming campaigns
+- Warnings or reminders for events
 
-## Target Users
+Target Users
 
-- **Students** who are part of the institution and want to register themselves and sign up for one or more health awareness campaigns
+- Students of the school/college who want to enroll themselves and participate in any one or more health and fitness events.
 
-- **Campaign organizers or administrators** (such as student health committee members or event coordinators) who need a way to see the list of students who have signed up either for the entire event or for a specific campaign
+– Event admins or organizers (such as student health committee members, event planners, etc.) who want a way to view a list of students that have registered for the entire event and/or for one specific event
 
-## High-Level Features
+High-Level Features
 
-1. **Student Registration**. Collect a student’s name, registration number, branch and residence type (hosteller or day student). Save this information for the session.
+1. Student information. Student name. Registration number. 
 
-2. **Health Awareness Information**. Share a list of health tips (hygiene, diet, physical activity, sleep, mental health, etc.) to raise awareness among students.
+Branch. 
 
-3. **View Campaigns**. Show all health-related campaigns in a numbered list with details: name, date, time and venue.
+Hostel resident or day student. Record this information for the session.
 
-4. **Campaign Registration**. Let a student, identified by their registration number sign up for a campaign, from the list of events.
+2. Health Tips Sharing. Provide students with a range of health tips such as good hygiene, exercise, good sleep, eating well, mental health etc to keep them healthy.
 
-5. **View Registered Students**. Show a list of all registered students with their details.
+3. View Events. List all health-related events in numbered order with details such as event name, date, time and location.
 
-6. **Simple Menu-Driven Interface**. A looped, numbered menu system that allows users to move between features during a terminal session until they choose to exit.
+4. Event Sign Up. Add a student to an event from the list of events using their registration number.
+
+5. Show List of Registered Students. List down all of the students who have registered with their details.
+
+6. Simple Menu System. The looped menu with numbers to enable navigation of features during a session, until the user opts to leave.
